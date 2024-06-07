@@ -235,10 +235,10 @@ class Ui_Form(object):
         self.thread.update_frame.connect(self.set_image)
 
         self.question = QtWidgets.QLabel(Form)
-        self.question.setGeometry(QtCore.QRect(100, 175, 1730, 91))
+        self.question.setGeometry(QtCore.QRect(100, 155, 1730, 101))
         self.question.setAutoFillBackground(True)
         self.question.setStyleSheet("color:rgb(0,0,0);\n"
-"font-size: 20px;\n"
+"font-size: 35px;\n"
 "font-family: Beton;\n"
 "font-weight: bold;\n"
 "text-align: center;")
@@ -251,7 +251,7 @@ class Ui_Form(object):
         #self.movie = QtGui.QMovie('C:/Users/Alejandro/Documents/vision_robot/robo_app/stand_by.gif')
         #self.gif_reactive.setMovie(self.movie)
         self.movie.start()
-        self.gif_reactive.setPixmap(QtGui.QPixmap('stand_by.png'))
+        self.gif_reactive.setPixmap(QtGui.QPixmap('C:/Users/Alejandro/Documents/vision_robot/robo_app/stand_by.png'))
         self.gif_reactive.setObjectName("gif_reactive")
 
         self.label = QtWidgets.QLabel(Form)
@@ -268,7 +268,7 @@ class Ui_Form(object):
         self.timer_label = QtWidgets.QLabel(Form)  # Label to display the timer
         self.timer_label.setGeometry(QtCore.QRect(740, 250, 470, 80))
         self.timer_label.setStyleSheet("color:rgb(255,0,0);\n"
-"font-size: 30px;\n"
+"font-size: 40px;\n"
 "font-family: Beton;\n"
 "font-weight: bold;\n"
 "text-align: center;")
